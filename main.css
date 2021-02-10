@@ -33,3 +33,19 @@ h1, h2, h3, h4, h5, h6, ul, ol, li {
 ul, ol {
     list-style-type: none;
 }
+
+::selection {
+    color: #fff;
+    background-color: #333;
+}
+
+::-moz-selection {
+    color: #fff;
+    background-color: #333;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
