@@ -3,7 +3,8 @@ body {
     padding :0;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    color: #333;
+    line-height: 1.43;
+    color: #484848;
 }
 
 p {
@@ -13,16 +14,12 @@ p {
 }
 
 a:link {
+    font-size: 16px;
     text-decoration: none;
-    margin: 0;
-    padding: 0;
-}
 }
 
 a:visited {
     text-decoration: none;
-    margin: 0;
-    padding: 0;
 }
 
 h1, h2, h3, h4, h5, h6, ul, ol, li {
@@ -57,4 +54,18 @@ ul, ol {
     width: 100%;
     height: auto;
     border-bottom: 1px solid #ccc;
+}
+
+.logo:link {
+    color: #484848;
+    padding: 30px;
+}
+
+.logo:visited {
+    color: #484848;
+}
+
+.logo img {
+    padding: 15px;
+    width: 100px;
 }
