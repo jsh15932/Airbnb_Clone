@@ -49,3 +49,12 @@ ul, ol {
     display: table;
     clear: both;
 }
+
+/* TOP-NAV CSS */
+
+.top-nav {
+    position: fixed;
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ccc;
+}
