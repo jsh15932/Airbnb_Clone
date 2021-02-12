@@ -57,15 +57,43 @@ ul, ol {
 }
 
 .logo:link {
+    position: relative;
     color: #484848;
-    padding: 30px;
+    display: inline-block;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transform: all 0.3s ease;
+    float: left;
 }
 
 .logo:visited {
     color: #484848;
 }
 
+.log:hover {
+    background-color: #f1f1f1;
+}
+
 .logo img {
-    padding: 15px;
+    position: relative;
+    padding: 12px 18px;
     width: 100px;
+    border-right: 1px solid #ccc;
+    vertical-align: middle;
+}
+
+/* NAV-SEARCH CSS */
+
+#nav-search-wrapper {
+    width: 490px;
+    height: 100px;
+    background-color: red;
+    display: inline-block;
+    position: relative;
+    float: left;
+}
+
+#nav-search-wrapper form input {
+    padding: 22px 10px 18px 52px;
 }
