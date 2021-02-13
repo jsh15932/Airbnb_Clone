@@ -86,14 +86,47 @@ ul, ol {
 /* NAV-SEARCH CSS */
 
 #nav-search-wrapper {
+    display: inline-block;
     width: 490px;
     height: 100px;
-    background-color: red;
+}
+
+#nav-search-wrapper form svg {
+    width: 18px;
+    height: 18px;
     display: inline-block;
-    position: relative;
-    float: left;
+    vertical-align: middle;
 }
 
 #nav-search-wrapper form input {
     padding: 22px 10px 18px 52px;
+    width: 100%;
+    border: none;
+    outline: none;
+    color: #666;
+    font-size: 14px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    display: inline-block;
+}
+
+#nav-search-wrapper from input::-webkit-input-placeholder {
+    color: #666;
+    font-size: 14px;
+}
+
+#nav-search-wrapper form input::-moz-placeholder {
+    color: #666;
+    font-size: 14px;
+}
+
+#nav-search-wrapper form input:-ms-input-placeholder {
+    color: #666;
+    font-size: 14px;
+}
+
+#nav-search-wrapper form input:-moz-placeholder {
+    color: #666;
+    font-size: 14px;
 }
