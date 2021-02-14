@@ -38,5 +38,3 @@ guest.addEventListener('click', (e) => {
     }
   }
 })
-
-
